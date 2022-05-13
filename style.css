@@ -3,17 +3,60 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 400;
-    
+    margin: 0 auto;
 }
-.capsulas-wrapper{
+
+.cloud {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.capsules-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 130px;
 }
-.capsulas{
+
+
+.capsules {
+
+    width: 280px;
+    height: 300px; 
     display: flex;
+    justify-content: center;
+    align-items: center;
+     
 }
-.wrapper{
-    padding-left: 20px;
-    padding-right: 20px;
+
+.wrapper_box1 {
+    box-sizing: border-box;
+    /*position: absolute;*/
+    width: 78px;
+    height: 17px;
+    border: 1px solid #000000;
+    border-radius: 17px;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+ 
+}
+
+.container_1 {
+    box-sizing: border-box;
+    /* position: absolute;*/
+    width: 52px;
+    height: 256px;
+    border: 1px solid #000000;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.color_red {
+    width: 52px;
+    height: 197px;
+    background: #FF5E5E;
+    border-radius: 0px 0px 40px 40px;
+    padding-top: 60px;
+    border: 1px solid #000000;
 }
