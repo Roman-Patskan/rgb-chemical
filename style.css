@@ -24,20 +24,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
-.capsulas-red{
-    width: 78px;
-    height: 17px;
-    border: 1px solid #000000;
-    border-radius: 17px;
-}
-.capsulas-reds{
-    margin: auto auto;
-    width: 52px;
-    border: 1px solid #000000;
-    border-top: 0;
-    border-radius: 0px 0px 40px 40px;
-    padding-top: 58px;
-}
+
 .color-red{
     display: flex;
     width: 52px;
@@ -48,20 +35,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
-.capsulas-green{
-    width: 78px;
-    height: 17px;
-    border: 1px solid #000000;
-    border-radius: 17px;
-}
-.capsulas-greens{
-    margin: auto auto;
-    width: 52px;
-    border: 1px solid #000000;
-    border-top: 0;
-    border-radius: 0px 0px 40px 40px;
-    padding-top: 58px;
-}
+
 .color-green{
     display: flex;
     width: 52px;
@@ -72,13 +46,13 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
-.capsulas-blue{
+.capsulas-hed{
     width: 78px;
     height: 17px;
     border: 1px solid #000000;
     border-radius: 17px;
 }
-.capsulas-blues{
+.capsulas-box{
     margin: auto auto;
     width: 52px;
     border: 1px solid #000000;
