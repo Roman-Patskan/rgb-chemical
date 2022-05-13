@@ -1,8 +1,15 @@
 body {
-    background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 400;
+    margin: 0;
+    border: 0;
+}
+.cloud{
+    display: flex;
+    justify-content: center;
+    max-width: 1800px; 
+    
     
 }
 .capsulas-wrapper{
@@ -16,4 +23,79 @@ body {
 .wrapper{
     padding-left: 20px;
     padding-right: 20px;
+}
+.capsulas-red{
+    width: 78px;
+    height: 17px;
+    border: 1px solid #000000;
+    border-radius: 17px;
+}
+.capsulas-reds{
+    margin: auto auto;
+    width: 52px;
+    border: 1px solid #000000;
+    border-top: 0;
+    border-radius: 0px 0px 40px 40px;
+    padding-top: 58px;
+}
+.color-red{
+    display: flex;
+    width: 52px;
+    height: 197px;
+    background-color: #FF5E5E;
+    border-radius: 0px 0px 40px 40px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.capsulas-green{
+    width: 78px;
+    height: 17px;
+    border: 1px solid #000000;
+    border-radius: 17px;
+}
+.capsulas-greens{
+    margin: auto auto;
+    width: 52px;
+    border: 1px solid #000000;
+    border-top: 0;
+    border-radius: 0px 0px 40px 40px;
+    padding-top: 58px;
+}
+.color-green{
+    display: flex;
+    width: 52px;
+    height: 197px;
+    background-color: #57C962;
+    border-radius: 0px 0px 40px 40px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.capsulas-blue{
+    width: 78px;
+    height: 17px;
+    border: 1px solid #000000;
+    border-radius: 17px;
+}
+.capsulas-blues{
+    margin: auto auto;
+    width: 52px;
+    border: 1px solid #000000;
+    border-top: 0;
+    border-radius: 0px 0px 40px 40px;
+    padding-top: 58px;
+}
+.color-blue{
+    display: flex;
+    width: 52px;
+    height: 197px;
+    background-color: #8BA4FB;
+    border-radius: 0px 0px 40px 40px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.numbers{
+    padding: 15px;
 }
