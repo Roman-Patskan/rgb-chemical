@@ -25,26 +25,21 @@ body {
     padding-right: 20px;
 }
 
-.color-red{
+.color{
     display: flex;
-    width: 52px;
-    height: 197px;
-    background-color: #FF5E5E;
     border-radius: 0px 0px 40px 40px;
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.color-green{
-    display: flex;
-    width: 52px;
-    height: 197px;
+.red{
+    background-color: #FF5E5E;
+}
+.green{
     background-color: #57C962;
-    border-radius: 0px 0px 40px 40px;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
+}
+.blue{
+    background-color: #8BA4FB;
 }
 .capsulas-hed{
     width: 78px;
@@ -59,16 +54,6 @@ body {
     border-top: 0;
     border-radius: 0px 0px 40px 40px;
     padding-top: 58px;
-}
-.color-blue{
-    display: flex;
-    width: 52px;
-    height: 197px;
-    background-color: #8BA4FB;
-    border-radius: 0px 0px 40px 40px;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 .numbers{
     padding: 15px;
