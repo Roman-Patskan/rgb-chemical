@@ -5,10 +5,10 @@ body {
     margin: 0;
     border: 0;
 }
-.cloud{
+.cloud svg{
     display: flex;
     justify-content: center;
-    max-width: 1800px; 
+    width: 100%; 
     
     
 }
