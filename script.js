@@ -33,3 +33,10 @@ function removeActiveClasses(index) {
         item.classList.remove('active');
     })
 }
+
+const year = prompt('ведіть рік свого народження')            
+  const calendarYear = 2022                                     
+  const age = calendarYear - year                               
+  alert('я думаю вам ' + age + ' років')                        
+  prompt('введіть своє імя')                                    
+  alert('я тут подумав навіщо мені твоє імя')
