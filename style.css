@@ -61,3 +61,7 @@ svg {
 .color-blue {   
     background: #8BA4FB;   
 }
+
+.active {
+    color: #fff;
+}
